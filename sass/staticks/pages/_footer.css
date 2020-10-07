@@ -1,0 +1,55 @@
+.footer {
+  background: #404040;
+  color: #fff;
+  border-top: 8px solid #e7434e;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.footer h2 {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.footer h6 {
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: left;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.footer h6:hover {
+  color: maincolor;
+}
+
+.footer .sochial {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.footer .sochial .fab {
+  background: #585757;
+  padding: 15px;
+  border-radius: 50px;
+  margin: 10px;
+  transition-duration: 1s;
+}
+
+.footer .sochial .fab:hover {
+  background: #fff;
+  color: #e7434e !important;
+  border: 1px solid  #e7434e;
+}
+
+.footer p {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer p span:hover {
+  color: #e7434e;
+  transition-duration: 1s;
+}

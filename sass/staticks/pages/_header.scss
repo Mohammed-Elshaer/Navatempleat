@@ -1,0 +1,42 @@
+header{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:$white;
+    height: 900px;
+    text-align: center;
+    .BOATNOW       {
+        text-align: center;
+        padding: $padding + 150 0;
+
+        h1{
+            font-size:$Fsize + 60;
+            letter-spacing: 5px;
+           font-weight: bolder;
+           text-align: center;
+           @media (max-width: 576px) {
+            font-size:$Fsize + 20;
+            }
+        }
+        p{
+            font-size: $Fsize + 10;
+            letter-spacing: 1px;
+            margin-bottom: $mrtop + 20;
+        }
+        .serch{
+            display: none;
+            .serches{
+                font-size: 14px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                outline: $maincolor;
+                border-width: 0;
+           .form-control{
+               box-shadow: none;
+               outline: 0;
+           }
+        }
+   }
+      }
+}

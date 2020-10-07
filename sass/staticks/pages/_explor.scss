@@ -1,0 +1,60 @@
+.card1{
+    padding: 100px 0;
+    text-align: center;
+    h3,p{
+        margin-bottom: 40px;
+    }
+    .cart1{
+@extend .cart
+    }
+    .cart {
+        background-color: $white;
+        position: relative;
+        display: none;  
+        transition: 1s;
+
+      .img-fluid{
+            position: relative;
+        }
+        span{
+            position: absolute;
+                  color: $white;
+                  background-color:$maincolor;
+                  transition-duration: 1s;
+                  padding: 10px;
+                  left:0px;
+                  top: -1px;
+                  border-radius: 5px;
+                  height: 45px;
+                  transition-duration: 1s;
+                  &:hover{
+                    border: 1px solid $maincolor;
+                    background-color: transparent;
+                    color: $maincolor ;
+                  }
+                  @media (max-width:768px){
+                         padding:0;
+                         height: auto;
+                        //  left:0px;
+                        //  top: -1px;
+                     }
+        }
+        p{
+            top: 215px;
+            position: absolute;
+            color: $white;
+           
+        }
+        @media (max-width:768px){
+           p{position: unset;
+            color: $dark;
+            span{
+                padding: 0;
+            }
+        }
+        }
+        // .lead{
+            
+        // }
+    }
+    }

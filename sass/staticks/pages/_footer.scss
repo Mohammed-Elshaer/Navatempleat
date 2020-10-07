@@ -1,0 +1,83 @@
+.footer
+{ background: #404040;
+  color:$white;
+  border-top: 8px solid $maincolor;
+  text-align: center;
+  padding: 100px 0;
+  @media (max-width:768px) {
+    text-align: left;
+
+  }
+  h2{
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+
+  h6{
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px;
+
+    transition-duration: 1s;
+    &:hover{
+        color: $maincolor;
+ }
+}
+  .sochial
+ {
+   margin-top: 30px;
+   text-align: left;
+  
+   .fab
+   {
+       background:rgb(88, 87, 87) ;
+       padding: 15px;
+       border-radius: 50px;
+       margin: 10px;
+       transition-duration: 1s;
+       &:hover{
+        background:$white;
+          color:$maincolor ;
+          border: 1px solid  $maincolor;
+         }
+         
+       }
+}
+
+
+  p
+    {
+    font-size: 15px;
+    cursor: pointer;
+
+    span{
+        &:hover{
+            color:$maincolor;
+            transition-duration: 1s;
+        }
+    }
+    }
+}
+
+
+
+
+
+
+
+
+@media (print), (prefers-reduced-motion: reduce) {
+.animated {
+-webkit-animation-duration: 1ms !important;
+animation-duration: 1ms !important;
+-webkit-transition-duration: 1ms !important;
+transition-duration: 1ms !important;
+-webkit-animation-iteration-count: 1 !important;
+animation-iteration-count: 1 !important;
+}
+}

@@ -1,0 +1,22 @@
+.OWNBOAT{
+    background-image: url("../images/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color:#fff;
+    height: 800px;
+    text-align: center;
+    h3{
+        font-size:$Fsize + 60;
+        margin-top: $mrtop + 150;
+        @media (max-width: 576px) {
+            font-size:$Fsize + 20;
+            }
+    }
+    p{
+        font-size: $Fsize + 10;
+            letter-spacing: 1px;
+            margin-bottom: $mrtop + 20
+    }
+}
